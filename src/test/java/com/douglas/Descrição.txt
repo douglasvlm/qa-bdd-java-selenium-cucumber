@@ -1,0 +1,22 @@
+RUNNER > FEATURES > STEPS > PAGES
+
+#js console
+#com x com xpath
+$x("//*")
+$x("//*[@title='Printed Chiffon Dress'][@class='product-name']")
+
+#sem x = css
+$(".icon-plus")
+
+$x("//*[contains(@class, 'cart_quantity')]")
+$x("//*[text()='Printed Chiffon Dress']//../..//..")
+$x("//*[text()='Printed Chiffon Dress']//ancestor::*")
+
+$x("//*[text()='Printed Chiffon Dress']//ancestor::*
+[contains(@class, 'cart_item')]")
+
+$x("//*[text()='Printed Chiffon Dress']//ancestor::*[contains(@class, 'cart_item')]//*[contains(@class, 'cart_quantity')]")
+$x("//*[text()='Printed Chiffon Dress']//ancestor::*[contains(@class, 'cart_item')]//*[contains(@class, 'cart_quantity_input')]")
+
+#extensão chorme
+SelectorsHub
